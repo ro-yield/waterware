@@ -1,18 +1,18 @@
 -- made by rang#2415 or https://v3rmillion.net/member.php?action=profile&uid=1906262
 local Config = {
-    Box               = false,
-    BoxOutline        = false,
-    BoxColor          = Color3.fromRGB(255,255,255),
-    BoxOutlineColor   = Color3.fromRGB(0,0,0),
-    HealthBar         = false,
-    HealthBarSide     = "Left", -- Left,Bottom,Right
-    Names             = false,
-    NamesOutline      = false,
-    NamesColor        = Color3.fromRGB(255,255,255),
-    NamesOutlineColor = Color3.fromRGB(0,0,0),
-    NamesFont         = 2, -- 0,1,2,3
-    NamesSize         = 13,
-    Thickness         = 1
+			Box               = false,
+			BoxOutline        = false,
+			BoxColor          = Color3.fromRGB(255,255,255),
+			BoxOutlineColor   = Color3.fromRGB(0,0,0),
+			HealthBar         = false,
+			HealthBarSide     = "Left", -- Left,Bottom,Right
+			Names             = false,
+			NamesOutline      = false,
+			NamesColor        = Color3.fromRGB(255,255,255),
+			NamesOutlineColor = Color3.fromRGB(0,0,0),
+			NamesFont         = 2, -- 0,1,2,3
+			NamesSize         = 13,
+			Thickness		  = 3
 }
 
 function CreateEsp(Player)
