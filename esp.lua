@@ -12,7 +12,7 @@ local Config = {
 			NamesOutlineColor = Color3.fromRGB(0,0,0),
 			NamesFont         = 2, -- 0,1,2,3
 			NamesSize         = 13,
-			Thickness		  = 3
+			Thickness		  = 1
 }
 
 function CreateEsp(Player)
@@ -27,14 +27,14 @@ function CreateEsp(Player)
                 Box.Color = Config.BoxColor
                 Box.Size = Vector2.new(width,height)
                 Box.Position = Vector2.new(Target2dPosition.X - Box.Size.X / 2,Target2dPosition.Y - Box.Size.Y / 2)
-                Box.Thickness = 1
+                Box.Thickness = Config.Thickness
                 Box.ZIndex = 69
                 if Config.BoxOutline then
                     BoxOutline.Visible = IsVisible
                     BoxOutline.Color = Config.BoxOutlineColor
                     BoxOutline.Size = Vector2.new(width,height)
                     BoxOutline.Position = Vector2.new(Target2dPosition.X - Box.Size.X / 2,Target2dPosition.Y - Box.Size.Y / 2)
-                    BoxOutline.Thickness = Config.Thickness
+                    BoxOutline.Thickness = 3
                     BoxOutline.ZIndex = 1
                 else
                     BoxOutline.Visible = false
